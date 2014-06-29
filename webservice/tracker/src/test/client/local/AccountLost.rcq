@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rest-client version="3.2.1"><request><http-version>1.1</http-version><http-follow-redirects/><URL>http://127.0.0.1:8888/parkingchum/account/lost</URL><method>POST</method><body><string content-type="application/json" charset="UTF-8">{
+  "stamp":"20140329143750",
+  "payload":
+  {
+   "email":"yannick.congo@gmail.com"
+  }
+}</string></body></request></rest-client>

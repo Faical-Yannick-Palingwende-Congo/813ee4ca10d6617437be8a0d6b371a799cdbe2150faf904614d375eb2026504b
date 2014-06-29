@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rest-client version="3.2.1"><request><http-version>1.1</http-version><http-follow-redirects/><URL>http://127.0.0.1:8888/tracker/activity/record</URL><method>POST</method><body><string content-type="application/json" charset="UTF-8">{
+  "stamp":"20140329143750",
+  "payload":
+  {
+   "token":"12e43c1dc70475ac14e2d5df3431626c7ef84995e1f3795499c06fc656b445ba",
+   "activity":"1",
+   "step":"1",
+   "ax":"1.2",
+   "ay":"0.3",
+   "az":"0.05",
+   "speed":"0.5",
+   "latitude":"39.1220998",
+   "longitude":"-77.23486172"
+  }
+}</string></body></request></rest-client>

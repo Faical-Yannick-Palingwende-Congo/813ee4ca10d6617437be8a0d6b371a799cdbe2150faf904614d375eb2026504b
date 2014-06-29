@@ -1,0 +1,13 @@
+{
+  "stamp":"20140329143750",
+  "payload":
+  {
+   "name":"Faical Yannick P. Congo",
+   "email":"yannick.congo@gmail.com",
+   "password":"Palin1987",
+   "scope":
+   {
+    "group":"USER"
+   }
+  }
+}

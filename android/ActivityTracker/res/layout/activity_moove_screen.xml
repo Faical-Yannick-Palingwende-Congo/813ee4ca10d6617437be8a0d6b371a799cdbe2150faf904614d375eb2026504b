@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.parkingchum.frontend.client.android.parkingtrack.MapWrapperLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map_relative_layout"
+    android:orientation="vertical" >
+    
+    <fragment
+        android:id="@+id/moove_map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.8" />
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3">
+        <Spinner 
+	        android:id="@+id/type"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"/>
+	    
+	    <Button
+	        android:id="@+id/action"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:text="@string/start_state" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/close_moove"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:text="@string/close_button" />
+
+</com.parkingchum.frontend.client.android.parkingtrack.MapWrapperLayout>

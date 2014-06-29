@@ -1,0 +1,15 @@
+package com.parkingchum.frontend.client.android.parkingtrack;
+
+public enum RequestType {
+	ACCOUNT_REGISTER,
+	ACCOUNT_UNREGISTER,
+	ACCOUNT_LOGIN,
+	ACCOUNT_LOGOUT,
+	ACCOUNT_UPDATE,
+	ACCOUNT_LOST,
+	ACCOUNT_RECOVER,
+	ACCOUNT_SEARCH,
+	ACTIVITY_START,
+	ACTIVITY_END,
+	ACTIVITY_RECORD
+}

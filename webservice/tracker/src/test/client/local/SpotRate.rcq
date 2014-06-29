@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rest-client version="3.2.1"><request><http-version>1.1</http-version><http-follow-redirects/><URL>http://127.0.0.1:8888/parkingchum/spot/rate</URL><method>POST</method><body><string content-type="application/json" charset="UTF-8">{
+  "stamp":"20140329143750",
+  "payload":
+  {
+   "token":"ffb38cb09f2c7965c9a8d03745b37c23ef7f307e4289d0f19f371bafc2bd6381",
+   "longitude":"0.2",
+   "latitude":"-23.00034",
+   "altitude":"0.000000"
+  }
+}</string></body></request></rest-client>

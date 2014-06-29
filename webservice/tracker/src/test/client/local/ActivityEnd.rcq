@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rest-client version="3.2.1"><request><http-version>1.1</http-version><http-follow-redirects/><URL>http://127.0.0.1:8888/tracker/activity/end</URL><method>POST</method><body><string content-type="application/json" charset="UTF-8">{
+  "stamp":"20140329143750",
+  "payload":
+  {
+   "token":"9949a67f8fa172702f2d765bb626495c009c2cac4b3d1f54e3cf2edaa0b80125",
+   "activity":"1"
+  }
+}</string></body></request></rest-client>
